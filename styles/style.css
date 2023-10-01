@@ -1,0 +1,71 @@
+body{
+    background-image: url(images/pexels-photo-807598.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    background-image: url(../styles/images/172333.jpg);
+    width: 70%;
+    border: 2px solid wheat;
+    border-radius: 20px;
+    margin: auto;
+    font-weight: bold;
+}
+address{
+color: #e6b355;
+}
+
+q{
+        color: #e6b355;
+        background-image: url(../styles/images/High_resolution_wallpaper_background_ID_77700000777.webp);
+        font-size: 30px;
+        font-family:'Trebuchet MS';
+        font-weight: bold;  
+}
+fieldset{
+    color: #e6b355;
+    border-style:dotted;
+    border-radius:20px ;
+    border-color: chocolate;
+}
+h1{
+    color: white;
+}
+footer{
+    color: white;
+}
+h2{
+    color: #e6b355;
+}
+.box{
+    color: aliceblue;
+    background-image: url(../styles/images/High_resolution_wallpaper_background_ID_77700000777.webp) ;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    border-color: #e6b355;
+    border-style:solid;
+    border-width:2px;
+    margin:5px;
+    padding: 20px 10px 50px;
+    border-radius: 20px;
+    height: 20px;
+    margin:0 auto 5px;
+}
+address{
+    background-image:url(../styles/images/High_resolution_wallpaper_background_ID_77700000777.webp);
+}
+h2{
+    background-image: url(../styles/images/High_resolution_wallpaper_background_ID_77700000777.webp);
+}
+a{
+    background-image:url(../styles/images/High_resolution_wallpaper_background_ID_77700000777.webp);
+}
+p{
+    color: #e6b355;
+    background-image: url(../styles/images/High_resolution_wallpaper_background_ID_77700000777.webp);
+}
+main{
+    font-family:'Trebuchet MS';
+    font-variant: small-caps;
+}

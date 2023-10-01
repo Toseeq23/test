@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Form</title>
+  </head>
+  <body style="background-image: url(../wallpapers/1c94b60a51c9f57349113c31402ce4e5d1397e1c0ce5fa69581018ca38de1541.jpg);">
+    <header>
+      <h1>Form submission</h1><
+      <nav>
+        <a href="index.html">Home Page</a>
+        <a href="Contact.html">Contact info</a>
+      </nav><hr>
+      <main>
+        <div class="container"; style="background-image:url(../wallpapers/sea_horizon_dark_128627_3840x2160.jpg);">
+
+          <div>
+            <fieldset>
+              <legend>Login info</legend>
+            <form>
+              <label for="First name">Enter your first name</label>
+              <input type="text" placeholder="Username" name="Firstname" />
+
+              <label for="Last name">Last name</label>
+              <input
+              type="text"
+              placeholder="Last name"
+              name="Lastname"
+              /><br /><br />
+              
+              <label for="Father name">Father name</label>
+              <input
+                type="text"
+                placeholder="Father name"
+                name="Fathername"
+              /><br /><br />
+
+              <label for="CNIC">Enter your Identity Card</label>
+              <input
+                type="number"
+                placeholder="CNIC number"
+                minlength="13"
+                maxlength="13"
+                name="CNIC number"
+              /><br /><br />
+
+              
+              
+              <label for="City name">Enter your city name</label>
+              <input
+              type="text"
+              placeholder="City"
+              name="Cityname"
+              /><br /><br />
+              
+              <label for="Contact number">Enter your contact number</label>
+              <input
+              type="number"
+              placeholder="Mobile no"
+              name="Mobilenumber"
+              required
+              /><br /><br />
+              
+              <label for="Email">Enter your Email</label>
+              <input
+              type="email"
+              placeholder="User email"
+              name="Useremail"
+              required
+              /><br /><br />
+              
+              <label for="DOB">Date of Birth</label>
+              <input type="date" name="Dateofbirth" /><br /><br />
+              
+              <label for="Qualification">Qualification</label>
+              <input type="text" name="Qualification" /><br /><br />
+              
+              <div>
+                Field Selection:
+                <select>
+                  <option value="networkEngineer">Network Engineer</option>
+                  <option value="softwareEngineer">Software Engineer</option>
+                  <option value="itengineer">IT Engineer</option>
+                  <option value="mechanicalEngineer">
+                    Mechanical Engineer
+                  </option></select
+                  ><br /><br />
+                  <div style="background-image: url(styles/images/High_resolution_wallpaper_background_ID_77700000777.webp); width: 30%;">
+                    Gender:
+                    <input
+                    type="radio"
+                    name="Gender"
+                    value="Male"
+                    id="genderformale"
+                    />
+                    <label for="genderformale">Male</label>
+                    <input
+                    type="radio"
+                    name="Gender"
+                    value="female"
+                    id="genderforfemale"
+                    />
+                    <label for="genderforfemale">Female</label>
+                  </div>
+                  
+                  <div style="background-image: url(styles/images/High_resolution_wallpaper_background_ID_77700000777.webp); width: 40%;">
+                    Hobbies:
+                    <input
+                    type="checkbox"
+                    name="Hobbies"
+                    value="bookreading"
+                    id="bookreading"
+                    />
+                    <label for="bookreading">Book Reading</label>
+                    
+                    <input
+                    type="checkbox"
+                    name="Hobbies"
+                    value="Coincollectin"
+                    id="Coincollectin"
+                    />
+                    <label for="Coincollectin">Coin collecting</label>
+                  </div>
+                  <hr />
+                </div>
+                
+                <div>
+                  <address style="background-image: none;">
+                    <b><i>Enter your address</i></b>
+                  </address>
+                  <br />
+                  <textarea name="Useraddress" cols="28" rows="4"></textarea>
+                </div>
+                
+                <br />
+                <br />
+                <input type="submit" />
+              </form>
+            </fieldset>
+          </div>
+        </div>
+        </main>
+        
+        <footer>
+        <p style="background-image: none;">&copy;<b>2023 All Rights Reserved</b></p>
+      </footer>
+    </header>
+  </body>
+</html>
